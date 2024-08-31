@@ -50,7 +50,7 @@ const Contact = () => {
     <div className="flex flex-col items-center justify-center h-screen bg-gradient-to-r from-green-400 to-blue-500 text-white p-8">
       <h1 className="text-5xl font-extrabold mb-8">Contact Me</h1>
       {submitted ? (
-        <p className="text-lg text-green-200">Thank you for your message! I'll get back to you soon.</p>
+        <p className="text-lg text-green-200">Thank you for your message! I&apos;ll get back to you soon.</p>
       ) : (
         <form onSubmit={handleSubmit} className="w-full max-w-md bg-white text-black p-8 rounded-lg shadow-lg">
           <div className="mb-6">

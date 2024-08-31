@@ -30,7 +30,7 @@ const Navbar = () => {
         <Link href="https://www.linkedin.com/in/ahmed-yaqoob-dhedhi" legacyBehavior>
           <a target="_blank" rel="noopener noreferrer">
             <Image 
-              src="/linkedin_logo.png" 
+              src="/linkedIn_logo.png" 
               alt="LinkedIn" 
               width={24} 
               height={24} 
